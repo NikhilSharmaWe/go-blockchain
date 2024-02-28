@@ -43,7 +43,7 @@ func HashFromBytes(b []byte) Hash {
 		value[i] = b[i]
 	}
 
-	return Hash(value)
+	return value
 }
 
 func RandomBytes(size int) []byte {
